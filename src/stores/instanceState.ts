@@ -1,7 +1,7 @@
 import { ref, type Ref } from 'vue'
 import { defineStore } from 'pinia'
 import { v4 as uuidv4 } from 'uuid';
-import { useViewerState } from 'cune-iiif-orm-viewer'
+import { useViewerState } from '@ghentcdh/cune-iiif-orm-viewer'
 
 export interface ViewerInstance {
   instanceId: string,

@@ -1,6 +1,7 @@
 import './assets/style.scss'
 
-import 'cune-iiif-orm-viewer/style.css'
+import '@ghentcdh/vue-mosaic/style.css'
+import '@ghentcdh/cune-iiif-orm-viewer/style.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
