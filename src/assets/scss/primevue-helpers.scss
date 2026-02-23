@@ -1,0 +1,10 @@
+[data-pc-name='togglebutton'] {
+    &.hide-label {
+        [data-pc-section='icon'] {
+            margin: 0;
+        }
+        [data-pc-section='label'] {
+            display: none;
+        }
+    }
+}

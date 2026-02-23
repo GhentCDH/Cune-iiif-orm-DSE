@@ -1,0 +1,38 @@
+.mosaic {
+
+  @apply bg-gray-100;
+
+  .mosaic-window {
+    border-radius: 0 !important;
+    border: 1px solid lightgray;
+  }
+
+  .mosaic-window-toolbar {
+    @apply py-4 px-3;
+    background: white !important;
+  }
+
+  .mosaic-window-body {
+    @apply p-0;
+    background: white !important;
+  }
+
+  // @todo: check!
+  .mosaic-window-body {
+    overflow: hidden;
+    position: relative;
+
+    & > div, & > div > div {
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .p-scrollpanel-content-container {
+    z-index: auto !important;
+  }
+}
+
+//.mosaic-droppable {
+//  z-index: 1000
+//}

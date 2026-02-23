@@ -1,0 +1,40 @@
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+@import './scss/base.scss';
+@import './scss/primevue-helpers.scss';
+@import './scss/vue-mosaic';
+@import './scss/typography';
+
+//@tailwind base;
+//@tailwind components;
+//@tailwind utilities;
+
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}

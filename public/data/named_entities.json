@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Naramtum",
+    "atf_form": "na-ra-am-tum",
+    "type": "Personal name"
+  },
+  {
+    "name": "Nūr-bēltini",
+    "atf_form": "nu-ur2-be-el-ti-ni",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ḫununum",
+    "atf_form": "hu-nu-nu-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Babala",
+    "atf_form": "ba-ba-la",
+    "type": "Personal name"
+  },
+  {
+    "name": "Abi-tab?",
+    "atf_form": "a-bi-tab",
+    "type": "Personal name"
+  },
+  {
+    "name": "Lalatia",
+    "atf_form": "la-la-ti-ia",
+    "type": "Personal name"
+  },
+  {
+    "name": "Il_-tu-u3-ti?",
+    "atf_form": "i3-li2-tu-u3-ti",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ku-Nin_ubur",
+    "atf_form": "KU3-{d}NIN.SZUBUR",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ak_aya",
+    "atf_form": "{I}ak-sza-a-a",
+    "type": "Personal name"
+  },
+  {
+    "name": "Lugal-Marad",
+    "atf_form": "{d}LUGAL.MAR2.DA",
+    "type": "Divine name"
+  },
+  {
+    "name": "Sumu-la-El",
+    "atf_form": "su-mu-la-el3",
+    "type": "Royal name"
+  },
+  {
+    "name": "S”n-lidi_",
+    "atf_form": "{d}EN.ZU-li-di-isz",
+    "type": "Personal name"
+  },
+  {
+    "name": "Il_-i_meanni",
+    "atf_form": "i3-li2-isz-me-a-ni",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ili_u-ibbi_u",
+    "atf_form": "DINGIR-szu-i-bi-szu",
+    "type": "Personal name"
+  },
+  {
+    "name": "Me_lanni",
+    "atf_form": "me-esz-la-ni",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ili_u-a_i_u",
+    "atf_form": "i3-li2-szu-SZESZ-szu",
+    "type": "Personal name"
+  },
+  {
+    "name": "Zapum?",
+    "atf_form": "ZA-PU-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Il_-ennam",
+    "atf_form": "i3-li2-en-nam",
+    "type": "Personal name"
+  },
+  {
+    "name": "Il_-n__ir",
+    "atf_form": "DINGIR-na-_i-ir",
+    "type": "Personal name"
+  },
+  {
+    "name": "Kazallu",
+    "atf_form": "ka-zal-lu{ki}",
+    "type": "Geographic name"
+  },
+  {
+    "name": "Ilum-bani",
+    "atf_form": "DINGIR-ba-ni",
+    "type": "Personal name"
+  },
+  {
+    "name": "Wan-x-amma",
+    "atf_form": "wa-an-x-am-ma",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-ennam",
+    "atf_form": "{d}EN.ZU-en-nam",
+    "type": "Personal name"
+  },
+  {
+    "name": "_umi-a_iya",
+    "atf_form": "szu-mi-a-hi-ia",
+    "type": "Personal name"
+  },
+  {
+    "name": "Irra-bani",
+    "atf_form": "ir3-ra-ba-ni",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-muballi_",
+    "atf_form": "{d}EN.ZU-mu-ba-li2-it,",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ana_-S”n",
+    "atf_form": "a-na-ah-{d}EN.ZU",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-i_enam",
+    "atf_form": "{d}EN.ZU-i-sze-na-am",
+    "type": "Personal name"
+  },
+  {
+    "name": "A_u-waqar",
+    "atf_form": "a-hu-wa-qar",
+    "type": "Personal name"
+  },
+  {
+    "name": "_ipum",
+    "atf_form": "hi-pu-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Nabi-S”n",
+    "atf_form": "na-bi-{d}EN.ZU",
+    "type": "Personal name"
+  },
+  {
+    "name": "N_r-_ama_",
+    "atf_form": "nu-ur2-{d}UTU",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”nya",
+    "atf_form": "{d}EN.ZU-ia",
+    "type": "Personal name"
+  },
+  {
+    "name": "Abu-_ipum",
+    "atf_form": "a-bu-hi-pu-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Arwium",
+    "atf_form": "ar-wi-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Warad-S”n",
+    "atf_form": "IR11-{d}EN.ZU",
+    "type": "Personal name"
+  },
+  {
+    "name": "Im-Mu_",
+    "atf_form": "{A.ENGUR}IM.{d}MUSZ",
+    "type": "River name"
+  },
+  {
+    "name": "N_r-I_tar",
+    "atf_form": "nu-ur2-isz8-tar2",
+    "type": "Personal name"
+  },
+  {
+    "name": "Il_-a_rani",
+    "atf_form": "i3-li2-asz-ra-ni",
+    "type": "Personal name"
+  },
+  {
+    "name": "__la_u-bal__u",
+    "atf_form": "s,i-la-szu-ba-la-t,u",
+    "type": "Personal name"
+  },
+  {
+    "name": "Sutžm",
+    "atf_form": "{I}su-tu-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Tabni-I_tar",
+    "atf_form": "{I}tab-ni-isz8-tar2",
+    "type": "Personal name"
+  },
+  {
+    "name": "Yamsi-El",
+    "atf_form": "ia-am-si-el3",
+    "type": "Royal name"
+  },
+  {
+    "name": "Ekurra-NIZA",
+    "atf_form": "e2-kur9-ra-NI-ZA",
+    "type": "Personal name"
+  },
+  {
+    "name": "R_maya",
+    "atf_form": "ri-ma-ia",
+    "type": "Personal name"
+  },
+  {
+    "name": "__-Enlil",
+    "atf_form": "szu-{d}EN.LIL2",
+    "type": "Personal name"
+  },
+  {
+    "name": "R__-Lulu",
+    "atf_form": "ri-isz-lu-lu",
+    "type": "Personal name"
+  },
+  {
+    "name": "Dagan-malik",
+    "atf_form": "{d}DA.GAN-ma-lik",
+    "type": "Personal name"
+  },
+  {
+    "name": "_ull_num",
+    "atf_form": "_u-la-nu-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Tata-x-um",
+    "atf_form": "ta-ta-x-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Nabi-il__u",
+    "atf_form": "na-bi-i3-li2-_u",
+    "type": "Personal name"
+  },
+  {
+    "name": "Arnabum",
+    "atf_form": "ar-na-bu-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "_unu-ilu",
+    "atf_form": "_u-nu-i-lu",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ilum-malik",
+    "atf_form": "DINGIR-ma-lik",
+    "type": "Personal name"
+  },
+  {
+    "name": "A_um-il__u",
+    "atf_form": "{I}SZESZ-i3-li2-szu",
+    "type": "Personal name"
+  },
+  {
+    "name": "R__-ilum",
+    "atf_form": "ri-i_-DINGIR",
+    "type": "Personal name"
+  },
+  {
+    "name": "Issina",
+    "atf_form": "is-si-na",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-r_menni",
+    "atf_form": "{d}EN.ZU-re-me-ni",
+    "type": "Personal name"
+  },
+  {
+    "name": "Enlil-issu",
+    "atf_form": "{d}EN.LIL2-i-su",
+    "type": "Personal name"
+  },
+  {
+    "name": "Nanaya-_arrat",
+    "atf_form": "{I}{d}na-na-a-_ar-ra-atÊ",
+    "type": "Personal name"
+  },
+  {
+    "name": "Igmil-S”n",
+    "atf_form": "ig-mi-il-{d}EN.ZU",
+    "type": "Personal name"
+  },
+  {
+    "name": "Sumu-num_im",
+    "atf_form": "su-mu:nu-um-hi-im",
+    "type": "Royal name"
+  },
+  {
+    "name": "Aw_l-ilim",
+    "atf_form": "a-wi-il-DINGIR",
+    "type": "Personal name"
+  },
+  {
+    "name": "Qaranum",
+    "atf_form": "qa2-ra-nu-um",
+    "type": "Personal name"
+  },
+  {
+    "name": "Samiya",
+    "atf_form": "sa-mi-ia",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ur-gigir",
+    "atf_form": "UR-{gisz}GIGIR",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ibni-kiab",
+    "atf_form": "ib-ni-ki-a-ab",
+    "type": "Personal name"
+  },
+  {
+    "name": "_ama_-bani",
+    "atf_form": "{d}UTU-ba-ni",
+    "type": "Personal name"
+  },
+  {
+    "name": "Butram-il_",
+    "atf_form": "bu-ut-ra-am-i3-li2",
+    "type": "Personal name"
+  },
+  {
+    "name": "Immaya",
+    "atf_form": "im-ma-i-a",
+    "type": "Personal name"
+  },
+  {
+    "name": "Mazam-il_",
+    "atf_form": "ma-za-am-i3-li2",
+    "type": "Personal name"
+  },
+  {
+    "name": "Il_-r__",
+    "atf_form": "DINGIR-SIPA",
+    "type": "Personal name"
+  },
+  {
+    "name": "Imtisu",
+    "atf_form": "im-ti-su",
+    "type": "Personal name"
+  },
+  {
+    "name": "Aw_l-barra",
+    "atf_form": "LU2-bar-ra",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-r__",
+    "atf_form": "{d}EN.ZU-SIPA",
+    "type": "Personal name"
+  },
+  {
+    "name": "Namiya",
+    "atf_form": "na-mi-ia",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ana-S”n-_ubadda",
+    "atf_form": "a-na-{d}EN.ZU-T,UB-AD-DA",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-rabi",
+    "atf_form": "{d}EN.ZU-ra-bi",
+    "type": "Personal name"
+  },
+  {
+    "name": "Pa-Ningal",
+    "atf_form": "PA5-{d}NIN.GAL",
+    "type": "River name"
+  },
+  {
+    "name": "S”n-bila-x",
+    "atf_form": "{d}EN.ZU-bi-la-x",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ur-Nintu",
+    "atf_form": "UR-{d}NIN.TU",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ibbi-Lulu",
+    "atf_form": "i-bi-lu-lu",
+    "type": "Personal name"
+  },
+  {
+    "name": "P”_a-Lulu",
+    "atf_form": "pi4-sza-lu-lu",
+    "type": "Personal name"
+  },
+  {
+    "name": "N_r-Kubi",
+    "atf_form": "nu-ur2-ku-bi",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-r__am",
+    "atf_form": "{d}EN.ZU-ri-s,a-am",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ibni-S”n",
+    "atf_form": "ib-ni-{d}EN.ZU",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-nada",
+    "atf_form": "{d}EN.ZU-na-da",
+    "type": "Personal name"
+  },
+  {
+    "name": "S”n-x-z_rum",
+    "atf_form": "{d}EN.ZU-x-NUMUN",
+    "type": "Personal name"
+  },
+  {
+    "name": "Numu_da",
+    "atf_form": "{d}NU.MUSZ.DA",
+    "type": "Divine name"
+  },
+  {
+    "name": "_alilum",
+    "atf_form": "{I}ha-li-lum",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ibbi-S”n",
+    "atf_form": "i-bi-{d}EN.ZU",
+    "type": "Personal name"
+  },
+  {
+    "name": "Pa-Imgur-Zi",
+    "atf_form": "PA5-im-gur-ZI",
+    "type": "River name"
+  },
+  {
+    "name": "Il_-rabi",
+    "atf_form": "i3-li2-ra-bi",
+    "type": "Personal name"
+  },
+  {
+    "name": "Idin-S”n",
+    "atf_form": "i-din-{d}EN.ZU",
+    "type": "Personal name"
+  },
+  {
+    "name": "Il_-ba_ti",
+    "atf_form": "i3-li2-ba-asz-ti",
+    "type": "Personal name"
+  },
+  {
+    "name": "Ku-Irra",
+    "atf_form": "KU-ir3-ra",
+    "type": "Personal name"
+  },
+  {
+    "name": "I_me-S”n",
+    "atf_form": "isz-me-{d}EN.ZU",
+    "type": "Personal name"
+  },
+  {
+    "name": "Borsippa",
+    "atf_form": "bar-si2-pa{ki}",
+    "type": "Geographic name"
+  },
+  {
+    "name": "Nannaya",
+    "atf_form": "{d}NANNA(|SZESZ.KI|)-a-a",
+    "type": "Personal name"
+  }
+]
