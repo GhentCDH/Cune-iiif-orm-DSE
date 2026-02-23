@@ -10,7 +10,7 @@ import Button from 'primevue/button'
 // import stores
 import { useCollectionStore } from '@/stores/collectionStore.ts'
 import { useInstanceState } from '@/stores/instanceState.ts'
-import { useNamedEntityStore } from '@/stores/namedEntityStore'
+//import { useNamedEntityStore } from '@/stores/namedEntityStore'
 import { useAppState } from '@/stores/appState.ts'
 
 // import child components
