@@ -3,7 +3,7 @@
     <div
       v-for="collectionItem in sortedCollectionItems"
       :key="'collection-item-' + collectionItem.id"
-      class="layer flex py-2 border px-2 cursor-pointer collection-item"
+      class="flex py-2 border-b border-gray-200 px-2 cursor-pointer collection-item"
       @click="onClick(collectionItem.id)"
     >
       <div>
@@ -59,7 +59,9 @@ const onClick = (id: string) => {
 
 <style scoped>
 .collection-item {
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .collection-item:hover {
