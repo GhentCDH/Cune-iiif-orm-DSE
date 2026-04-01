@@ -1,9 +1,14 @@
 @reference './tailwind.css';
 
-@import './scss/base.scss';
+//@import './scss/base.scss';
 @import './scss/primevue-helpers.scss';
 @import './scss/vue-mosaic';
 @import './scss/typography';
+@import './scss/icons';
+
+//:root {
+//  --p-togglebutton-content-checked-background: var(--p-primary-color);
+//}
 
 #app {
   width: 100%;
