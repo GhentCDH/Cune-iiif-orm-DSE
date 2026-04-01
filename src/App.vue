@@ -16,6 +16,7 @@ import { useAppState } from '@/stores/appState.ts'
 // import child components
 import SearchPanel, { type CollectionPanelItem } from '@/components/SearchPanel.vue'
 import { ManifestViewer, ImageViewerToggle } from '@ghentcdh/cune-iiif-orm-viewer'
+import { useViewportSync } from '@/lib/useViewportSync.ts'
 import ToggleIcon from '@/components/helpers/ToggleIcon.vue'
 
 import { MosaicContext, Mosaic, type MosaicNode, type MosaicItem } from '@ghentcdh/vue-mosaic'
@@ -27,6 +28,7 @@ const tabletsVisible = ref(false)
 // init stores
 const collectionStore = useCollectionStore()
 const projectState = useInstanceState()
+const viewportSync = useViewportSync(projectState)
 // const namedEntityStore = useNamedEntityStore()
 const appState = useAppState()
 
@@ -52,31 +54,10 @@ let root = shallowRef<MosaicNode>({})
 // load named entities
 // namedEntityStore.loadNamedEntities()
 
-// load tablets
+// init tablets
 collectionStore.loadCollection(tabletManifest).then(() => {
-  projectState.openViewerInstance(collectionStore.items[0].id, appState.verboseViewer)
-  projectState.openViewerInstance(collectionStore.items[0].id, appState.verboseViewer)
-
-  const instances = projectState.getViewerInstances()
-
-  root.value = {
-    direction: 'row',
-    first: {
-      id: instances[0].instanceId,
-      title: getFirstLocalizedValue(
-        collectionStore.getItem(instances[0].manifestId).label,
-        appState.language
-      )
-    },
-    second: {
-      id: instances[1].instanceId,
-      title: getFirstLocalizedValue(
-        collectionStore.getItem(instances[1].manifestId).label,
-        appState.language
-      )
-    },
-    splitPercentage: 60
-  }
+  addTabletToMosaic(collectionStore.items[21].id)
+  addTabletToMosaic(collectionStore.items[21].id)
 })
 
 // collection items
@@ -98,6 +79,7 @@ const handleMosaicRemoveItem = (node: MosaicNode | null) => {
   // Handle item removal
   console.log('remove mosaic', node)
   if (node) {
+    viewportSync.unwatchInstance(node.id)
     projectState.closeViewerInstance(node.id)
   }
   console.log(root.value)
@@ -304,7 +286,9 @@ const findAndSplitLargestLeaf = (node: MosaicNode, newTablet: MosaicNode): Mosai
 }
 
 const addTabletToMosaic = (manifestId: string) => {
+
   const instanceId = projectState.openViewerInstance(manifestId, appState.verboseViewer)
+  viewportSync.watchInstance(instanceId)
 
   appState.verboseMosaic && console.log('Adding tablet:', manifestId)
   appState.verboseMosaic && console.log('Root before:', root.value)
@@ -437,6 +421,13 @@ const addTabletToMosaic = (manifestId: string) => {
             class="flex-1 overflow-hidden"
             :verbose="appState.verboseViewer"
           >
+            <template #image-controls-top>
+              <ImageViewerToggle
+                icon="ci ci-sync-viewport"
+                :model-value="projectState.getViewerInstance(props.node.id)?.syncViewport"
+                @update:model-value="(val: boolean) => projectState.setSyncViewport(props.node.id, val)"
+              />
+            </template>
           </ManifestViewer>
         </template>
       </Mosaic>
