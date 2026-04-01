@@ -58,8 +58,8 @@ importers:
         version: 3.1.4(vue@3.5.13(typescript@5.4.5))
     devDependencies:
       '@ghentcdh/cune-iiif-orm-viewer':
-        specifier: ^0.9.3
-        version: 0.9.3(@annotorious/annotorious@3.5.1)(@annotorious/openseadragon@3.5.1(openseadragon@5.0.1))(@iiif/helpers@1.5.7(@iiif/parser@2.2.8))(@iiif/presentation-3-normalized@0.9.7)(@iiif/presentation-3@2.2.3)(@primevue/themes@4.2.4)(@vueuse/core@10.11.1(vue@3.5.13(typescript@5.4.5)))(dompurify@3.3.0)(openseadragon@5.0.1)(pinia@2.2.7(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(primeicons@7.0.0)(primevue@4.2.4(vue@3.5.13(typescript@5.4.5)))(splitpanes@3.2.0(vue@3.5.13(typescript@5.4.5)))(typescript@5.4.5)(vue-inline-svg@3.1.4(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))
+        specifier: ^0.9.5
+        version: 0.9.5(@annotorious/annotorious@3.5.1)(@annotorious/openseadragon@3.5.1(openseadragon@5.0.1))(@iiif/helpers@1.5.7(@iiif/parser@2.2.8))(@iiif/presentation-3-normalized@0.9.7)(@iiif/presentation-3@2.2.3)(@primevue/themes@4.2.4)(@vueuse/core@10.11.1(vue@3.5.13(typescript@5.4.5)))(dompurify@3.3.0)(openseadragon@5.0.1)(pinia@2.2.7(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(primeicons@7.0.0)(primevue@4.2.4(vue@3.5.13(typescript@5.4.5)))(splitpanes@3.2.0(vue@3.5.13(typescript@5.4.5)))(typescript@5.4.5)(vue-inline-svg@3.1.4(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))
       '@rushstack/eslint-patch':
         specifier: ^1.10.4
         version: 1.10.4
@@ -313,8 +313,8 @@ packages:
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@ghentcdh/cune-iiif-orm-viewer@0.9.3':
-    resolution: {integrity: sha512-XMRsu0lBuYpTKkbfKiIpmJk/dVS40vnzrqY9dy3oclvcQWDrxRWidJVv75PRjYN3IffEBag11JWKKsNBd/p8iw==}
+  '@ghentcdh/cune-iiif-orm-viewer@0.9.5':
+    resolution: {integrity: sha512-N7N0XV2ztuClxffPefj2e6KpsFef7DxHBMZsIe0hdXbym87+ja42vjHvEcAHZzuIW1Vzaguc1kCD/CGDE53R2A==}
     peerDependencies:
       '@annotorious/annotorious': ~3.5.1
       '@annotorious/openseadragon': ~3.5.1
@@ -1648,8 +1648,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@5.1.6:
-    resolution: {integrity: sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==}
+  nanoid@5.1.7:
+    resolution: {integrity: sha512-ua3NDgISf6jdwezAheMOk4mbE1LXjm1DfMUDMuJf4AqxLFK3ccGpgWizwa5YV7Yz9EpXwEaWoRXSb/BnV0t5dQ==}
     engines: {node: ^18 || >=20}
     hasBin: true
 
@@ -2114,7 +2114,7 @@ snapshots:
     dependencies:
       dequal: 2.0.3
       nanoevents: 9.1.0
-      nanoid: 5.1.6
+      nanoid: 5.1.7
       uuid: 11.1.0
 
   '@annotorious/openseadragon@3.5.1(openseadragon@5.0.1)':
@@ -2230,7 +2230,7 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@ghentcdh/cune-iiif-orm-viewer@0.9.3(@annotorious/annotorious@3.5.1)(@annotorious/openseadragon@3.5.1(openseadragon@5.0.1))(@iiif/helpers@1.5.7(@iiif/parser@2.2.8))(@iiif/presentation-3-normalized@0.9.7)(@iiif/presentation-3@2.2.3)(@primevue/themes@4.2.4)(@vueuse/core@10.11.1(vue@3.5.13(typescript@5.4.5)))(dompurify@3.3.0)(openseadragon@5.0.1)(pinia@2.2.7(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(primeicons@7.0.0)(primevue@4.2.4(vue@3.5.13(typescript@5.4.5)))(splitpanes@3.2.0(vue@3.5.13(typescript@5.4.5)))(typescript@5.4.5)(vue-inline-svg@3.1.4(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))':
+  '@ghentcdh/cune-iiif-orm-viewer@0.9.5(@annotorious/annotorious@3.5.1)(@annotorious/openseadragon@3.5.1(openseadragon@5.0.1))(@iiif/helpers@1.5.7(@iiif/parser@2.2.8))(@iiif/presentation-3-normalized@0.9.7)(@iiif/presentation-3@2.2.3)(@primevue/themes@4.2.4)(@vueuse/core@10.11.1(vue@3.5.13(typescript@5.4.5)))(dompurify@3.3.0)(openseadragon@5.0.1)(pinia@2.2.7(typescript@5.4.5)(vue@3.5.13(typescript@5.4.5)))(primeicons@7.0.0)(primevue@4.2.4(vue@3.5.13(typescript@5.4.5)))(splitpanes@3.2.0(vue@3.5.13(typescript@5.4.5)))(typescript@5.4.5)(vue-inline-svg@3.1.4(vue@3.5.13(typescript@5.4.5)))(vue@3.5.13(typescript@5.4.5))':
     dependencies:
       '@annotorious/annotorious': 3.5.1
       '@annotorious/openseadragon': 3.5.1(openseadragon@5.0.1)
@@ -3543,7 +3543,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  nanoid@5.1.6: {}
+  nanoid@5.1.7: {}
 
   natural-compare@1.4.0: {}
 
